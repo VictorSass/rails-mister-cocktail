@@ -10,8 +10,9 @@
   </head>
 
   <body>
-    <%= link_to "Menu", cocktails_path %>
-    <%= link_to "Nouveau cocktail", new_cocktail_path %>
+  <%= render "layouts/navbar" %>
     <%= yield %>
+  <%= render "layouts/footer" %>
   </body>
 </html>
+

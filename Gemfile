@@ -29,6 +29,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 gem 'figaro'
+gem 'carrierwave', '~> 1.2'
+gem 'cloudinary'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'

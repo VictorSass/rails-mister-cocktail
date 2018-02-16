@@ -8,6 +8,8 @@
     <%= link_to 'Supprimer une dose', dose_path(dose), data: {:confirm => 'Êtes vous sûre?'}, method: :delete %>
   <% end %>
 
-  <%= image_tag @cocktail.picture %>
+
+  <%= cl_image_tag @cocktail.picture, height: 300, width: 400, crop: :fill %>
+
 </div>
 

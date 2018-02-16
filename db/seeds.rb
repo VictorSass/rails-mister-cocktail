@@ -15,7 +15,7 @@ list2 = JSON.parse(user_serialized2)
 list2["drinks"].each do |drink|
   Cocktail.create!(
     name: drink["strDrink"],
-    picture: "https://#{drink["strDrinkThumb"]}"
+    picture: ""
     )
 end
 puts "the end"

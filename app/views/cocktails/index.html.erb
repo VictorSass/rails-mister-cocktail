@@ -4,6 +4,7 @@
   <% @cocktails.each do |cocktail| %>
     <%= link_to cocktail_path(cocktail) do %>
       <%= cocktail.name %>
+      <%= cocktail.picture %>
     <% end %>
   <% end %>
 </div>

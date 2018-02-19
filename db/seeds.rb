@@ -16,7 +16,7 @@ puts "open and read url api"
 url = 'http://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail'
 buff = open(url).read
 result_d = JSON.parse(buff)
-result_d = result_d["drinks"].sample(30)
+result_d = result_d["drinks"].sample(30 )
 puts 'Cleaning database...'
 Cocktail.destroy_all
 puts "create 15 cocktails"
